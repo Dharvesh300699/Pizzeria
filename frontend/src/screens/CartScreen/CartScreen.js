@@ -229,12 +229,18 @@ const CartScreen = ({ history }) => {
               </button>
             </Link>
           </div>
-          <img src="/images/empty_cart.png" alt="empty-cart" />
+          <img
+            src="https://res.cloudinary.com/dswp5qfpm/image/upload/v1624269136/empty_cart_1624269144264.png"
+            alt="empty-cart"
+          />
         </div>
       ) : (
         <div className="py-4">
           <div style={{ maxWidth: "800px", margin: "0 auto" }}>
-            <img src="/images/cart_black.png" alt="cart-icon" />{" "}
+            <img
+              src="https://res.cloudinary.com/dswp5qfpm/image/upload/v1624269246/cart_black_1624269253641.png"
+              alt="cart-icon"
+            />{" "}
             <span className="ms-2 fs-4 fw-bold">Order Summary</span>
             <hr></hr>
           </div>
