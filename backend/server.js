@@ -25,8 +25,6 @@ app.get("/api/config/razorPay", (req, res) => {
   res.send(process.env.KEY_ID)
 })
 
-const __dirname = path.resolve()
-
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "/frontend/build")))
 
