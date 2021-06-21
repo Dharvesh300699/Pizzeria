@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #2b2e4a;
+  --secondary-color: #fe5f1e;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fdfcfa;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.primary {
+  background-color: var(--primary-color) !important;
+}
+
+.secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+.btn-first {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border-radius: 20px;
+}
+
+@media (max-width: 576px) {
+  .btn-first {
+    font-size: 14px;
+  }
+}

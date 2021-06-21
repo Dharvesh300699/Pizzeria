@@ -1,0 +1,11 @@
+.order-row {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 10px auto;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.fs-small {
+  font-size: 14px;
+  color: #595959;
+}

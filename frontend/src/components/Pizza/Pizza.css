@@ -1,0 +1,47 @@
+.pizza {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 270px;
+  max-width: 350px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.p-light {
+  font-size: 14px;
+}
+
+.pizza-img {
+  max-width: 200px;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+.options {
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.size-select:focus {
+  box-shadow: none;
+  border-color: var(--secondary-color);
+}
+
+@media (max-width: 576px) {
+  .pizza {
+    min-width: 250px;
+  }
+  .pizza-img {
+    max-width: 100px;
+  }
+  .form-select {
+    font-size: 14px;
+    padding: 6px 25px 6px 6px;
+  }
+}
